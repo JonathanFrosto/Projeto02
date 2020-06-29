@@ -1,0 +1,19 @@
+@media screen and ( max-width: 768px ){
+    .apresentation { justify-content: center;}
+    
+    .mosaic-row,
+    .mosaic-row:nth-child(even){ flex-direction: column;}
+    
+    .img-container,
+    .long-copy { width: 100%;}
+
+    .long-copy {
+        padding: 30px 12%;
+        text-align: center;
+    }
+}
+
+@media screen and ( max-width: 400px ){
+    .apresentation { height: auto;}
+    .apresentation-box { margin: 0;}
+}
