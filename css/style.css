@@ -99,14 +99,29 @@ input[type=submit]:hover {
 /* section-call */
 .section-call .container {
 	padding: 40px 2%;
-	background-color: rgb(87, 68, 56);
+	background-color: rgb(87, 68, 50);
 	color: #fff;
+	position: relative;
 }
 
 .call-box {
 	text-align: center;
 	max-width: 600px;
 	margin: 0 auto;
+
+}
+
+.seta { 
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	background-color: rgb(63, 49, 41);
+	position: absolute;
+	top: -32px;
+	left: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .call-box h2 {
